@@ -15,14 +15,44 @@
 
 
     <style> div {border: thin dotted red;} </style>
+    <style>
+        /* This is a style comment */
+      div {border: thin dotted red;}
+    * {box-sizing: border-box;}
+    .header {
+      border: 1px solid red;
+      padding: 15px;
+    }
+    .menu {
+      width: 25%;
+      float: left;
+      padding: 15px;
+      border: 1px solid red;
+    }
+    .main {
+      width: 75%;
+      float: left;
+      padding: 15px;
+      border: 1px solid red 
+    }
+    </style>
 
   </head>
   <body>
+    <header class="header"> Flexbox: INDEX as a Flexbox</header>
+    <aside class="header"><p> This is the aside Space with no viewport in a p-tag</p></aside>
+    <nav class="menu"><h3>Navigation with no viewport in h3</h3></nav>
+    <section class="main"><h3 style="font-size:2.5vw"> Section 1</h3>
+    <section class="header">
+      Section 2
+    </section>
+
+
     <div>Hello World</div>
     <header>What this index page might look like with Flexbox</header>
     <nav></nav>
     <aside></aside>
-    <section><article>Open in ATOM to see What this index page might look like with Flexbox changes</article></section>
+    <section><article></article></section>
   </body>
   <footer>
     <blockquote cite="https://quotefancy.com/quote/1017/Albert-Einstein-You-never-fail-until-you-stop-trying">
