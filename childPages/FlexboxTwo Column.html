@@ -33,7 +33,7 @@
       width: 75%;
       float: left;
       padding: 15px;
-      border: 1px solid red 
+      border: 1px solid red
     }
     </style>
 
@@ -43,12 +43,9 @@
     <aside class="header"><p> This is the aside Space with no viewport in a p-tag</p></aside>
     <nav class="menu"><h3>Navigation with no viewport in h3</h3></nav>
     <section class="main"><h3 style="font-size:2.5vw"> Section 1</h3>
-    <section class="header">
-      Section 2
-    </section>
 
 
-    <div>Hello World</div>
+
     <header>What this index page might look like with Flexbox</header>
     <nav></nav>
     <aside></aside>
@@ -62,6 +59,55 @@
       <strong>You never fail until you stop trying.</strong>
       <em>- <a href="https://quotefancy.com/quote/1017/Albert-Einstein-You-never-fail-until-you-stop-trying" target="_blank">
         Albert Einstein</a></em>
+
+
+        <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1 - Yes Im aware I used this page experimenting with all sorts of weird columns</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Here are two proper columns though - with colour ish</h2>
+    <p>Some text..</p>
+  </div>
+
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
     </p>
     <p>&copy Annanya Matharu, powered by TwilightMare in Github</p>
   </footer>
